@@ -8,10 +8,15 @@ export default function Casa() {
   return (
     <div className={s.container}>
       <div className={s.image}>
-        <Image src="/casa.jpg" alt="Pessoas" fill />
+        <Image src="/assets/casa.jpg" fill alt="Pessoas" />
       </div>
       <div className={s.column}>
-        <Image src="/casa-logo.png" width={136} height={64} alt="Logo APS" />
+        <Image
+          src="/assets/casa-logo.png"
+          width={136}
+          height={64}
+          alt="Logo APS"
+        />
         <p>
           Como forma de dar mais comodidade ao nosso associado, a CAURN
           disponibiliza um espaço exclusivo para atendimento e para as

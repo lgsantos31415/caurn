@@ -1,13 +1,8 @@
-import { Open_Sans, Montserrat } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 
 const openSans = Open_Sans({
   variable: "--font-open-sans",
-  subsets: ["latin"],
-});
-
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
   subsets: ["latin"],
 });
 
@@ -23,9 +18,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className={`${openSans.variable} ${montserrat.variable}`}>
-        {children}
-      </body>
+      <body className={`${openSans.variable}`}>{children}</body>
     </html>
   );
 }

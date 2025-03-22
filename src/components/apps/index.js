@@ -12,12 +12,27 @@ export default function Apps() {
           utilização, guia médico, dados pessoais, e muito mais.
         </p>
         <div className={s.row}>
-          <Image width={142} height={46} src="/appstore.png" />
-          <Image width={142} height={46} src="/googleplay.png" />
+          <Image
+            width={142}
+            height={46}
+            src="/assets/appstore.png"
+            alt="App Store"
+          />
+          <Image
+            width={142}
+            height={46}
+            src="/assets/googleplay.png"
+            alt="Google Play Store"
+          />
         </div>
       </div>
       <div className={s.image}>
-        <Image fill src="/mobile.png" style={{ objectFit: "contain" }} />
+        <Image
+          fill
+          src="/assets/mobile.png"
+          style={{ objectFit: "contain" }}
+          alt="Smartphone"
+        />
       </div>
     </div>
   );

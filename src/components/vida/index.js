@@ -8,7 +8,12 @@ export default function Vida() {
   return (
     <div className={s.container}>
       <div className={s.column}>
-        <Image src="/vida-logo.png" width={136} height={64} alt="Logo APS" />
+        <Image
+          src="/assets/vida-logo.png"
+          width={136}
+          height={64}
+          alt="Logo APS"
+        />
         <p>
           Criado em 2003, o Programa De Bem com a Vida nasceu com o foco em
           melhorar a qualidade de vida dos associados acima de 60 (sessenta)
@@ -19,7 +24,7 @@ export default function Vida() {
         <Button>SABER MAIS</Button>
       </div>
       <div className={s.image}>
-        <Image src="/vida.jpg" alt="Casal" fill />
+        <Image src="/assets/vida.jpg" fill alt="Casal" />
       </div>
     </div>
   );

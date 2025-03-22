@@ -14,7 +14,7 @@ import s from "./styles.module.css";
 export default function Header() {
   return (
     <header className={s.container}>
-      <Image src="/logo.png" width={190} height={50} alt="Logo" />
+      <Image src="/assets/logo.png" width={190} height={50} alt="Logo" />
 
       <div className={s.right}>
         <div className={s.row}>

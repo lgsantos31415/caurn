@@ -20,7 +20,7 @@ export default function Institucional() {
         <Button>SABER MAIS</Button>
       </div>
       <div className={s.image}>
-        <Image src={"/assets/institucional.jpeg"} fill />
+        <Image src={"/assets/institucional.jpeg"} fill alt="Instituições" />
       </div>
     </div>
   );

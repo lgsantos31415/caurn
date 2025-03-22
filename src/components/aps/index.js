@@ -8,10 +8,15 @@ export default function Aps() {
   return (
     <div className={s.container}>
       <div className={s.image}>
-        <Image src="/aps.jpg" alt="Pessoas" fill />
+        <Image src="/assets/aps.jpg" fill alt="Pessoas" />
       </div>
       <div className={s.column}>
-        <Image src="/aps-logo.png" width={136} height={64} alt="Logo APS" />
+        <Image
+          src="/assets/aps-logo.png"
+          width={136}
+          height={64}
+          alt="Logo APS"
+        />
         <p>O que é a Atenção Primária à Saúde (APS)?</p>
         <p>
           É o primeiro nível de atenção em saúde e caracteriza-se por um

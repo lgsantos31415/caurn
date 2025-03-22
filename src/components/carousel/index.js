@@ -36,7 +36,7 @@ export default function Carousel() {
             <Image
               src="/assets/carousel/1.png"
               fill
-              alt="Imagem"
+              alt="Pessoas"
               style={{ objectFit: "cover" }}
             />
           </div>
@@ -46,7 +46,7 @@ export default function Carousel() {
             <Image
               src="/assets/carousel/2.png"
               fill
-              alt="Imagem"
+              alt="Pessoas"
               style={{ objectFit: "cover" }}
             />
           </div>
@@ -56,7 +56,7 @@ export default function Carousel() {
             <Image
               src="/assets/carousel/3.png"
               fill
-              alt="Imagem"
+              alt="Pessoas"
               style={{ objectFit: "cover" }}
             />
           </div>
@@ -66,7 +66,7 @@ export default function Carousel() {
             <Image
               src="/assets/carousel/4.png"
               fill
-              alt="Imagem"
+              alt="Pessoas"
               style={{ objectFit: "cover" }}
             />
           </div>
