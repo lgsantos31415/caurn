@@ -50,11 +50,6 @@
   line-height: 1.4rem;
   font-weight: 600;
 
-  > svg {
-    font-size: 2.4rem;
-    line-height: 2.4rem;
-  }
-
   text-decoration: none;
 
   transition: all 350ms ease-in-out;
@@ -64,31 +59,36 @@
   }
 }
 
+.a > svg {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
+
 .row {
   display: flex;
   align-items: center;
   gap: 18px;
+}
 
-  > a {
-    width: fit-content;
-    height: fit-content;
+.row > a {
+  width: fit-content;
+  height: fit-content;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    color: var(--title);
-    font-size: 1.6rem;
-    line-height: 1.6rem;
-    font-weight: 600;
+  color: var(--title);
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  font-weight: 600;
 
-    text-decoration: none;
+  text-decoration: none;
 
-    transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
 
-    &:hover {
-      opacity: 0.8;
-    }
+  &:hover {
+    opacity: 0.8;
   }
 }
 
