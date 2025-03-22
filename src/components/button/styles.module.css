@@ -1,0 +1,21 @@
+.container {
+  width: fit-content;
+  height: fit-content;
+  padding: 12px 28px;
+
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  font-weight: 700;
+  color: white;
+
+  border: none;
+  border-radius: 6px;
+  background-color: var(--title);
+  transition: all 350ms ease-in-out;
+
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  height: fit-content;
+  padding-block: 32px;
+
+  background-color: #e6e6e6;
+
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  > span {
+    margin-bottom: 12px;
+
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+    color: var(--title);
+  }
+
+  > a {
+    width: fit-content;
+    height: fit-content;
+
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    color: var(--title);
+    text-decoration: none;
+
+    transition: all 350ms ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

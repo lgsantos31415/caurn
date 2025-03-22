@@ -1,0 +1,59 @@
+# Node.js and npm/yarn/pnpm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Next.js specific
+.next/
+.next-build/
+.next-cache/
+.out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.temp
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Linux system files
+*.swp
+*~
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Testing and coverage
+coverage/
+.nyc_output/
+
+# Dependency directories
+jspm_packages/
+
+# Optional: Ignore local development configurations
+local.config.js

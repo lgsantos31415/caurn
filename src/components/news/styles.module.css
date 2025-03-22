@@ -1,0 +1,125 @@
+.container {
+  width: 100%;
+  height: fit-content;
+  padding-block: 64px;
+
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #eeeeee;
+
+  > h1 {
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+    color: var(--title);
+    font-weight: 700;
+  }
+
+  > p {
+    width: 625px;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--title);
+  }
+}
+
+.carousel {
+  width: 85%;
+  height: fit-content;
+}
+
+.card {
+  width: 100%;
+  flex-shrink: 0;
+  height: fit-content;
+  padding: 38px 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  background-color: var(--third-bg);
+  border-radius: 12px;
+  box-shadow: 0 3px 15px 1px #00000020;
+  cursor: pointer;
+  transition: all 350ms ease-in-out;
+
+  > h1 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--title);
+  }
+
+  > p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--title);
+  }
+
+  &:hover {
+    transform: translateY(-5%);
+  }
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  > svg {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    color: var(--red);
+  }
+
+  > span {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: var(--title);
+  }
+}
+
+.swiper {
+  position: relative;
+  padding-inline: 16px;
+}
+
+.swiper {
+  > div:nth-of-type(1) {
+    padding: 24px 0;
+  }
+}
+
+.swiper_slide {
+  width: auto;
+}
+
+.swiper_prev,
+.swiper_next {
+  width: 46px;
+  height: 46px;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+
+  color: var(--title);
+
+  display: grid;
+  place-items: center;
+
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.swiper_prev {
+  left: 0;
+}
+
+.swiper_next {
+  right: 0;
+}
